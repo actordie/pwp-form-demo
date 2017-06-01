@@ -47,7 +47,7 @@
 					<div class="col-sm-6">
 
 						<!-- BEGIN CONTACT FORM -->
-						<form id="contact-form">
+						<form id="contact-form" method="POST" action="php/mailer.php">
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
